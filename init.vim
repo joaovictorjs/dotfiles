@@ -19,6 +19,7 @@ set termguicolors
 
 " pluggins
 call plug#begin()
+Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -32,3 +33,9 @@ let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 
 colorscheme tokyonight
+
+" remaps
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>

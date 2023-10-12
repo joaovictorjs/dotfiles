@@ -1,7 +1,6 @@
 set number
 set autoindent
 set expandtab
-set filetype
 set shiftwidth=4
 set smarttab
 set tabstop=4
@@ -20,7 +19,7 @@ set termguicolors
 
 " pluggins
 call plug#begin()
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'

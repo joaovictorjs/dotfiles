@@ -1,4 +1,5 @@
 set number
+set relativenumber
 set autoindent
 set expandtab
 set shiftwidth=4
@@ -16,6 +17,7 @@ set noswapfile
 set shell=/bin/bash
 set smartindent
 set termguicolors
+set scrolloff=10
 filetype on
 filetype plugin indent on
 

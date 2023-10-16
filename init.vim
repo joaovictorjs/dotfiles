@@ -14,11 +14,14 @@ set wildmenu
 set background=dark
 set noswapfile
 set shell=/bin/bash
-set autochdir
+set smartindent
 set termguicolors
+filetype on
+filetype plugin indent on
 
 " pluggins
 call plug#begin()
+Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

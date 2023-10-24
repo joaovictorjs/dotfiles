@@ -20,9 +20,11 @@ set termguicolors
 set scrolloff=10
 filetype on
 filetype plugin indent on
+set clipboard=unnamedplus
 
 " pluggins
 call plug#begin()
+Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'

@@ -34,6 +34,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'airblade/vim-gitgutter'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'tribela/vim-transparent'
 call plug#end()
 
 let g:tokyonight_style = 'night'
@@ -46,9 +47,3 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
-" set transparent background
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none

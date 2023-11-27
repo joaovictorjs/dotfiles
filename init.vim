@@ -33,11 +33,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'airblade/vim-gitgutter'
-Plug 'ghifarit53/tokyonight-vim'
-Plug 'tribela/vim-transparent'
+Plug 'folke/tokyonight.nvim'
+" Plug 'tribela/vim-transparent'
 call plug#end()
 
-let g:tokyonight_style = 'night'
+set background=light
+let g:tokyonight_style = 'day'
 let g:tokyonight_enable_italic = 1
 
 colorscheme tokyonight

@@ -49,9 +49,10 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-function ClangFormatWebKit() 
-    silent execute '%!clang-format --style=WebKit'
+function ClangFormatMozilla() 
+    silent execute '%!clang-format --style=Mozilla'
     redraw!
 endfunction
 
-command ClangFormatWebKitCommand call ClangFormatWebKit()
+command ClangFormatMozillaCommand call ClangFormatMozilla()
+command CFM call ClangFormatMozilla()

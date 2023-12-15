@@ -33,15 +33,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'airblade/vim-gitgutter'
-Plug 'folke/tokyonight.nvim'
-" Plug 'tribela/vim-transparent'
+Plug 'cormacrelf/vim-colors-github'
 call plug#end()
 
 set background=light
-let g:tokyonight_style = 'day'
-let g:tokyonight_enable_italic = 1
-
-colorscheme tokyonight
+colorscheme github 
 
 " remaps
 nnoremap <leader>n :NERDTreeFocus<CR>

@@ -34,10 +34,11 @@ Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'airblade/vim-gitgutter'
 Plug 'cormacrelf/vim-colors-github'
+Plug 'EdenEast/nightfox.nvim'
 call plug#end()
 
-set background=light
-colorscheme github 
+" set background=light
+colorscheme nightfox 
 
 " remaps
 nnoremap <leader>n :NERDTreeFocus<CR>

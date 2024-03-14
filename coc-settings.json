@@ -1,0 +1,22 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "rootPatterns": [".git/", "compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "cmake": {
+            "command": "cmake-language-server",
+            "filetypes": ["cmake"],
+            "rootPatterns": [
+                "build/"
+            ],
+            "initializationOptions": {
+                "buildDirectory": "build"
+            }
+        }
+    },
+    "cmake.cmakePath": "/usr/lib/cmake",
+    "cmake.cmakeFormatter": " /usr/bin/cmake-format",
+    "cmake.lsp.enable":true
+}

@@ -16,7 +16,7 @@
             }
         }
     },
-    "cmake.cmakePath": "/usr/lib/cmake",
+    "cmake.cmakePath": "/usr/bin/cmake",
     "cmake.cmakeFormatter": " /usr/bin/cmake-format",
     "cmake.lsp.enable":true
 }
